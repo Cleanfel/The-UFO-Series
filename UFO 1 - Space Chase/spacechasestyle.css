@@ -1,0 +1,381 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("applab/fontawesome-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+#divApplab.appModern button,
+#divApplab.appModern button:hover {
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  height: 30px;
+  width: 80px;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(26, 188, 156);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#divApplab.appModern label,
+#divApplab.appModern label:hover {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 2px;
+  padding-right: 2px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+  line-height: 1;
+  font-size: 14px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  word-wrap: break-word;
+  color: rgb(51, 51, 51);
+  max-width: 320px;
+  width: 32px;
+  height: 19px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#divApplab.appModern input[type=text],
+#divApplab.appModern input[type=text]:hover {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  width: 200px;
+  height: 30px;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#divApplab.appModern input[type=checkbox],
+#divApplab.appModern input[type=checkbox]:hover {
+  width: 12px;
+  height: 12px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#divApplab.appModern select,
+#divApplab.appModern select:hover {
+  width: 200px;
+  height: 30px;
+  font-size: 14px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(26, 188, 156);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#divApplab.appModern input[type=radio],
+#divApplab.appModern input[type=radio]:hover {
+  width: 12px;
+  height: 12px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#divApplab.appModern div.textArea,
+#divApplab.appModern div.textArea:hover {
+  width: 200px;
+  height: 100px;
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+#divApplab.appModern img,
+#divApplab.appModern img:hover {
+  height: 100px;
+  width: 100px;
+  object-fit: contain;
+  font-family: "object-fit: contain;";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+#divApplab.appModern canvas,
+#divApplab.appModern canvas:hover {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+#divApplab.appModern div.screen,
+#divApplab.appModern div.screen:hover {
+  display: block;
+  height: 450px;
+  width: 320px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  z-index: 0;
+}
+
+#divApplab.appModern div.chart,
+#divApplab.appModern div.chart:hover {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+#divApplab.appModern input[type=range],
+#divApplab.appModern input[type=range]:hover {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  width: 150px;
+  height: 24px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#divApplab.appModern #screenWelcome {
+  background-color: rgb(0, 0, 0);
+  background-size: 320px 450px;
+  background-image: url("https://studio.code.org/media?u=http%3A%2F%2Fwww.hdiphone6wallpapers.net%2Fiphone-6-backgrounds%2Fiphone-6-wallpapers-2%2Fiphone-6-wallpapers-hd-100pb94q-1080x1920.jpg");
+}
+
+#divApplab.appModern #labelTitle {
+  font-size: 55px;
+  color: rgb(222, 12, 12);
+  width: 202px;
+  height: 281px;
+  left: 5px;
+  top: 280px;
+}
+
+#divApplab.appModern #buttonPlay1 {
+  height: 60px;
+  width: 90px;
+  font-size: 20px;
+  background-color: rgb(103, 5, 6);
+  left: 225px;
+  top: 385px;
+}
+
+#divApplab.appModern #buttonInstructions1 {
+  height: 40px;
+  width: 90px;
+  background-color: rgb(103, 5, 6);
+  left: 225px;
+  top: 340px;
+}
+
+#divApplab.appModern #screenChase {
+  height: 451px;
+  background-size: 320px 451px;
+  background-image: url("https://studio.code.org/blockly/media/1x1.gif");
+  background-color: rgb(0, 0, 0);
+  display: none;
+}
+
+#divApplab.appModern #imageBackground {
+  width: 320px;
+  height: 450px;
+}
+
+#divApplab.appModern #imageBlackHole {
+  height: 85px;
+  width: 85px;
+  left: 30px;
+  top: 60px;
+}
+
+#divApplab.appModern #imageUfo {
+  height: 70px;
+  width: 95px;
+  left: 130px;
+  top: 295px;
+}
+
+#divApplab.appModern #imageMars {
+  left: 190px;
+  top: 100px;
+  height: 90px;
+  width: 90px;
+}
+
+#divApplab.appModern #imageAsteroid {
+  height: 60px;
+  width: 60px;
+  left: 20px;
+  top: 200px;
+}
+
+#divApplab.appModern #screenGameOver {
+  background-size: 320px 450px;
+  background-image: url("https://studio.code.org/media?u=http%3A%2F%2Fwww.hdiphone6wallpapers.net%2Fiphone-6-backgrounds%2Fiphone-6-wallpapers-2%2Fiphone-6-wallpapers-hd-100pb94q-1080x1920.jpg");
+  background-color: rgb(0, 0, 0);
+  display: none;
+}
+
+#divApplab.appModern #labelGameOver {
+  font-size: 50px;
+  color: rgb(142, 216, 23);
+  width: 285px;
+  left: 15px;
+  top: 190px;
+  height: 49px;
+  text-align: center;
+}
+
+#divApplab.appModern #buttonRetry {
+  height: 35px;
+  width: 100px;
+  font-size: 20px;
+  background-color: rgb(51, 130, 15);
+  left: 115px;
+  top: 250px;
+}
+
+#divApplab.appModern #buttonMainMenu {
+  height: 35px;
+  width: 201px;
+  font-size: 18px;
+  background-color: rgb(30, 82, 5);
+  left: 60px;
+  top: 295px;
+}
+
+#divApplab.appModern #screenWin {
+  background-size: 320px 450px;
+  background-image: url("https://studio.code.org/media?u=http%3A%2F%2Fwww.hdiphone6wallpapers.net%2Fiphone-6-backgrounds%2Fiphone-6-wallpapers-2%2Fiphone-6-wallpapers-hd-100pb94q-1080x1920.jpg");
+  background-color: rgb(0, 0, 0);
+  display: none;
+}
+
+#divApplab.appModern #labelWin {
+  font-size: 50px;
+  color: rgb(214, 191, 12);
+  width: 269px;
+  height: 59px;
+  left: 25px;
+  top: 200px;
+  background-color: rgba(0, 0, 0, 0);
+  text-align: center;
+}
+
+#divApplab.appModern #buttonWin {
+  width: 144px;
+  background-color: rgb(132, 122, 15);
+  left: 90px;
+  top: 265px;
+}
+
+#divApplab.appModern #screenInstructions1 {
+  background-color: rgb(0, 0, 0);
+  background-size: 320px 450px;
+  background-image: url("https://studio.code.org/media?u=http%3A%2F%2Fwww.hdiphone6wallpapers.net%2Fiphone-6-backgrounds%2Fiphone-6-wallpapers-2%2Fiphone-6-wallpapers-hd-100pb94q-1080x1920.jpg");
+  display: none;
+}
+
+#divApplab.appModern #labelInstructionsWord {
+  font-size: 24px;
+  color: rgb(84, 255, 230);
+  width: 151px;
+  height: 29px;
+  left: 5px;
+  top: 235px;
+}
+
+#divApplab.appModern #labelInstructionsText1 {
+  font-size: 16px;
+  color: rgb(175, 255, 245);
+  width: 233px;
+  left: 15px;
+  top: 270px;
+  height: 46px;
+}
+
+#divApplab.appModern #labelInstructionsText2 {
+  font-size: 16px;
+  color: rgb(175, 255, 245);
+  width: 300px;
+  left: 15px;
+  top: 295px;
+  height: 37px;
+}
+
+#divApplab.appModern #labelInstructionsText3 {
+  font-size: 16px;
+  color: rgb(175, 255, 245);
+  width: 287px;
+  left: 15px;
+  top: 340px;
+  height: 21px;
+}
+
+#divApplab.appModern #labelInstructionsText4 {
+  font-size: 16px;
+  color: rgb(175, 255, 245);
+  width: 241px;
+  left: 15px;
+  top: 370px;
+  height: 21px;
+}
+
+#divApplab.appModern #buttonBack {
+  height: 35px;
+  width: 130px;
+  background-color: rgb(49, 164, 167);
+  left: 90px;
+  top: 400px;
+}

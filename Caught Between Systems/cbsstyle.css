@@ -1,0 +1,1465 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("applab/fontawesome-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+#divApplab.appModern button,
+#divApplab.appModern button:hover {
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  height: 30px;
+  width: 80px;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(26, 188, 156);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#divApplab.appModern label,
+#divApplab.appModern label:hover {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 2px;
+  padding-right: 2px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+  line-height: 1;
+  font-size: 14px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  word-wrap: break-word;
+  color: rgb(51, 51, 51);
+  max-width: 320px;
+  width: 32px;
+  height: 19px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#divApplab.appModern input[type=text],
+#divApplab.appModern input[type=text]:hover {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  width: 200px;
+  height: 30px;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#divApplab.appModern input[type=checkbox],
+#divApplab.appModern input[type=checkbox]:hover {
+  width: 12px;
+  height: 12px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#divApplab.appModern select,
+#divApplab.appModern select:hover {
+  width: 200px;
+  height: 30px;
+  font-size: 14px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(26, 188, 156);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#divApplab.appModern input[type=radio],
+#divApplab.appModern input[type=radio]:hover {
+  width: 12px;
+  height: 12px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#divApplab.appModern div.textArea,
+#divApplab.appModern div.textArea:hover {
+  width: 200px;
+  height: 100px;
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+#divApplab.appModern img,
+#divApplab.appModern img:hover {
+  height: 100px;
+  width: 100px;
+  object-fit: contain;
+  font-family: "object-fit: contain;";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+#divApplab.appModern canvas,
+#divApplab.appModern canvas:hover {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+#divApplab.appModern div.screen,
+#divApplab.appModern div.screen:hover {
+  display: block;
+  height: 450px;
+  width: 320px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  z-index: 0;
+}
+
+#divApplab.appModern div.chart,
+#divApplab.appModern div.chart:hover {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+#divApplab.appModern input[type=range],
+#divApplab.appModern input[type=range]:hover {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  width: 150px;
+  height: 24px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#divApplab.appModern #screenTitleScreen {
+  background-size: 320px 450px;
+  background-image: url("https://studio.code.org/media?u=http%3A%2F%2Fi.imgur.com%2FAWi7r5m.jpg");
+}
+
+#divApplab.appModern #labelTitleScreen {
+  font-size: 23px;
+  color: rgb(95, 239, 112);
+  width: 297px;
+  height: 28px;
+  left: 10px;
+  top: 135px;
+}
+
+#divApplab.appModern #labelTitleScreen2 {
+  color: rgb(95, 239, 112);
+  width: 257px;
+  left: 30px;
+  top: 170px;
+}
+
+#divApplab.appModern #buttonBegin {
+  height: 95px;
+  width: 100px;
+  font-size: 20px;
+  color: rgb(146, 35, 2);
+  background-color: rgb(95, 239, 112);
+  left: 110px;
+  top: 310px;
+}
+
+#divApplab.appModern #buttonInstructions {
+  height: 40px;
+  width: 100px;
+  font-size: 15px;
+  color: rgb(146, 35, 2);
+  background-color: rgb(95, 239, 112);
+  left: 215px;
+  top: 315px;
+}
+
+#divApplab.appModern #buttonCredits {
+  height: 40px;
+  width: 100px;
+  font-size: 15px;
+  color: rgb(146, 35, 2);
+  background-color: rgb(95, 239, 112);
+  left: 215px;
+  top: 360px;
+}
+
+#divApplab.appModern #buttonOptions {
+  height: 40px;
+  width: 100px;
+  font-size: 15px;
+  color: rgb(146, 35, 2);
+  background-color: rgb(95, 239, 112);
+  left: 5px;
+  top: 360px;
+}
+
+#divApplab.appModern #buttonMinigame {
+  height: 40px;
+  width: 100px;
+  font-size: 15px;
+  color: rgb(146, 35, 2);
+  background-color: rgb(95, 239, 112);
+  left: 5px;
+  top: 315px;
+}
+
+#divApplab.appModern #imageCopyright {
+  height: 8px;
+  width: 8px;
+  left: 303px;
+  top: 134px;
+}
+
+#divApplab.appModern #screenInstructions {
+  background-size: 320px 450px;
+  background-image: url("https://studio.code.org/media?u=http%3A%2F%2Fiphonewalls.net%2Fwp-content%2Fuploads%2F2016%2F03%2FVertical%2520Blue%2520Lines%2520Abstract%2520iPhone%25206%2B%2520HD%2520Wallpaper.jpg");
+  display: none;
+}
+
+#divApplab.appModern #labelInstructions1 {
+  font-size: 32px;
+  color: rgb(64, 234, 85);
+  width: 191px;
+  height: 37px;
+  left: 10px;
+  top: 10px;
+}
+
+#divApplab.appModern #labelInstructions2 {
+  font-size: 17px;
+  color: rgb(64, 234, 85);
+  width: 305px;
+  height: 107px;
+  left: 15px;
+  top: 50px;
+}
+
+#divApplab.appModern #labelInstructions3 {
+  font-size: 17px;
+  color: rgb(64, 234, 85);
+  width: 95px;
+  height: 25px;
+  left: 15px;
+  top: 170px;
+}
+
+#divApplab.appModern #buttonInstructionsBack {
+  height: 35px;
+  width: 90px;
+  font-size: 16px;
+  color: rgb(103, 27, 4);
+  background-color: rgb(64, 234, 85);
+  left: 220px;
+  top: 405px;
+}
+
+#divApplab.appModern #screenCredits {
+  background-size: 320px 450px;
+  background-image: url("https://studio.code.org/media?u=http%3A%2F%2Fiphonewalls.net%2Fwp-content%2Fuploads%2F2016%2F03%2FVertical%2520Blue%2520Lines%2520Abstract%2520iPhone%25206%2B%2520HD%2520Wallpaper.jpg");
+  display: none;
+}
+
+#divApplab.appModern #labelCredits1 {
+  font-size: 32px;
+  color: rgb(64, 234, 85);
+  width: 118px;
+  height: 37px;
+  left: 10px;
+  top: 10px;
+}
+
+#divApplab.appModern #labelCredits2 {
+  font-size: 17px;
+  color: rgb(64, 234, 85);
+  width: 157px;
+  height: 40px;
+  left: 20px;
+  top: 50px;
+}
+
+#divApplab.appModern #labelCredits3 {
+  font-size: 17px;
+  color: rgb(64, 234, 85);
+  width: 109px;
+  height: 41px;
+  left: 20px;
+  top: 100px;
+}
+
+#divApplab.appModern #labelCredits4 {
+  font-size: 17px;
+  color: rgb(64, 234, 85);
+  width: 100px;
+  height: 40px;
+  left: 20px;
+  top: 150px;
+}
+
+#divApplab.appModern #labelCredits2a {
+  font-size: 17px;
+  color: rgb(64, 234, 85);
+  width: 118px;
+  height: 22px;
+  left: 35px;
+  top: 70px;
+}
+
+#divApplab.appModern #labelCredits3a {
+  font-size: 17px;
+  color: rgb(64, 234, 85);
+  width: 66px;
+  height: 20px;
+  left: 35px;
+  top: 120px;
+}
+
+#divApplab.appModern #labelCredits4a {
+  font-size: 17px;
+  color: rgb(64, 234, 85);
+  width: 118px;
+  height: 22px;
+  top: 170px;
+  left: 35px;
+}
+
+#divApplab.appModern #labelCredits5 {
+  font-size: 17px;
+  color: rgb(64, 234, 85);
+  width: 139px;
+  height: 22px;
+  top: 200px;
+  left: 20px;
+}
+
+#divApplab.appModern #labelCredits5a {
+  font-size: 17px;
+  color: rgb(64, 234, 85);
+  width: 109px;
+  height: 22px;
+  left: 35px;
+  top: 220px;
+}
+
+#divApplab.appModern #labelCredits6 {
+  font-size: 17px;
+  color: rgb(64, 234, 85);
+  width: 97px;
+  height: 22px;
+  top: 250px;
+  left: 20px;
+}
+
+#divApplab.appModern #labelCredits6a {
+  font-size: 17px;
+  color: rgb(64, 234, 85);
+  width: 118px;
+  height: 22px;
+  top: 270px;
+  left: 35px;
+}
+
+#divApplab.appModern #labelCredits7 {
+  font-size: 17px;
+  color: rgb(64, 234, 85);
+  width: 130px;
+  height: 22px;
+  top: 300px;
+  left: 20px;
+}
+
+#divApplab.appModern #labelCredits7a {
+  font-size: 17px;
+  color: rgb(64, 234, 85);
+  width: 100px;
+  height: 121px;
+  top: 320px;
+  left: 35px;
+}
+
+#divApplab.appModern #buttonCreditsBack {
+  height: 35px;
+  width: 90px;
+  font-size: 16px;
+  color: rgb(103, 27, 4);
+  background-color: rgb(64, 234, 85);
+  left: 220px;
+  top: 405px;
+}
+
+#divApplab.appModern #labelCredits8 {
+  font-size: 17px;
+  color: rgb(64, 234, 85);
+  width: 99px;
+  height: 22px;
+  left: 170px;
+  top: 50px;
+}
+
+#divApplab.appModern #labelCredits8a {
+  font-size: 17px;
+  color: rgb(64, 234, 85);
+  width: 117px;
+  height: 22px;
+  left: 185px;
+  top: 70px;
+}
+
+#divApplab.appModern #screenOptions {
+  background-size: 320px 450px;
+  background-image: url("https://studio.code.org/media?u=http%3A%2F%2Fiphonewalls.net%2Fwp-content%2Fuploads%2F2016%2F03%2FVertical%2520Blue%2520Lines%2520Abstract%2520iPhone%25206%2B%2520HD%2520Wallpaper.jpg");
+  display: none;
+}
+
+#divApplab.appModern #buttonOptionsBack {
+  height: 35px;
+  width: 90px;
+  font-size: 16px;
+  color: rgb(103, 27, 4);
+  background-color: rgb(64, 234, 85);
+  left: 220px;
+  top: 405px;
+}
+
+#divApplab.appModern #labelOptions {
+  font-size: 32px;
+  color: rgb(64, 234, 85);
+  width: 131px;
+  height: 37px;
+  left: 10px;
+  top: 10px;
+}
+
+#divApplab.appModern #labelOptionsSound {
+  font-size: 17px;
+  color: rgb(64, 234, 85);
+  width: 133px;
+  height: 22px;
+  left: 15px;
+  top: 105px;
+}
+
+#divApplab.appModern #imageOptionsSoundNotif {
+  height: 190px;
+  width: 355px;
+  left: -15px;
+  top: 130px;
+}
+
+#divApplab.appModern #labelOptionsSoundNotif {
+  font-size: 26px;
+  width: 250px;
+  height: 100px;
+  left: 35px;
+  top: 155px;
+  text-align: center;
+}
+
+#divApplab.appModern #buttonOptionsSoundNotif {
+  height: 60px;
+  font-size: 16px;
+  color: rgb(103, 27, 4);
+  background-color: rgb(64, 234, 85);
+  left: 120px;
+  top: 230px;
+}
+
+#divApplab.appModern #buttonOptionsSoundOff {
+  color: rgb(64, 234, 85);
+  background-color: rgb(103, 27, 4);
+  left: 160px;
+  top: 100px;
+  width: 70px;
+}
+
+#divApplab.appModern #buttonOptionsSoundOn {
+  width: 70px;
+  color: rgb(103, 27, 4);
+  background-color: rgb(64, 234, 85);
+  left: 160px;
+  top: 100px;
+}
+
+#divApplab.appModern #buttonOptionsBackFake {
+  height: 35px;
+  width: 90px;
+  font-size: 16px;
+  color: rgb(103, 27, 4);
+  background-color: rgb(64, 234, 85);
+  left: 220px;
+  top: 405px;
+}
+
+#divApplab.appModern #mScreenMain {
+  background-color: rgb(0, 0, 0);
+  background-size: 320px 450px;
+  background-image: url("https://studio.code.org/media?u=http%3A%2F%2Fwww.hdiphone6wallpapers.net%2Fiphone-6-backgrounds%2Fiphone-6-wallpapers-2%2Fiphone-6-wallpapers-hd-100pb94q-1080x1920.jpg");
+  display: none;
+}
+
+#divApplab.appModern #mLabelTitle {
+  font-size: 55px;
+  color: rgb(222, 12, 12);
+  width: 202px;
+  height: 281px;
+  left: 5px;
+  top: 280px;
+}
+
+#divApplab.appModern #mButtonPlay {
+  height: 60px;
+  width: 90px;
+  font-size: 20px;
+  background-color: rgb(103, 5, 6);
+  left: 225px;
+  top: 385px;
+}
+
+#divApplab.appModern #mButtonInstructions {
+  height: 40px;
+  width: 90px;
+  background-color: rgb(103, 5, 6);
+  left: 225px;
+  top: 340px;
+}
+
+#divApplab.appModern #mButtonReturn {
+  width: 90px;
+  color: rgb(103, 27, 4);
+  background-color: rgb(64, 234, 85);
+  left: 225px;
+  top: 305px;
+}
+
+#divApplab.appModern #mReturn {
+  height: 190px;
+  width: 355px;
+  left: -15px;
+  top: 105px;
+}
+
+#divApplab.appModern #mLabelReturn {
+  font-size: 28px;
+  color: rgb(0, 0, 0);
+  width: 305px;
+  height: 61px;
+  left: 5px;
+  top: 130px;
+  text-align: center;
+}
+
+#divApplab.appModern #mButtonReturnYes {
+  height: 50px;
+  width: 60px;
+  font-size: 18px;
+  color: rgb(103, 27, 4);
+  background-color: rgb(64, 234, 85);
+  left: 90px;
+  top: 200px;
+}
+
+#divApplab.appModern #mButtonReturnNo {
+  width: 60px;
+  font-size: 18px;
+  color: rgb(103, 27, 4);
+  background-color: rgb(64, 234, 85);
+  left: 165px;
+  top: 200px;
+  height: 50px;
+}
+
+#divApplab.appModern #mButtonInstructionsFake {
+  height: 40px;
+  width: 90px;
+  background-color: rgb(103, 5, 6);
+  left: 225px;
+  top: 340px;
+}
+
+#divApplab.appModern #mButtonPlayFake {
+  height: 60px;
+  width: 90px;
+  font-size: 20px;
+  background-color: rgb(103, 5, 6);
+  left: 225px;
+  top: 385px;
+}
+
+#divApplab.appModern #mScreenChase {
+  height: 451px;
+  background-size: 320px 451px;
+  background-image: url("https://studio.code.org/blockly/media/1x1.gif");
+  background-color: rgb(0, 0, 0);
+  display: none;
+}
+
+#divApplab.appModern #mBackground {
+  width: 320px;
+  height: 450px;
+}
+
+#divApplab.appModern #mBlackHole {
+  height: 85px;
+  width: 85px;
+  left: 30px;
+  top: 60px;
+}
+
+#divApplab.appModern #mUfo {
+  height: 70px;
+  width: 95px;
+  left: 130px;
+  top: 295px;
+}
+
+#divApplab.appModern #mMars {
+  left: 190px;
+  top: 100px;
+  height: 90px;
+  width: 90px;
+}
+
+#divApplab.appModern #mAsteroid {
+  height: 60px;
+  width: 60px;
+  left: 20px;
+  top: 200px;
+}
+
+#divApplab.appModern #mScreenGameOver {
+  background-size: 320px 450px;
+  background-image: url("https://studio.code.org/media?u=http%3A%2F%2Fwww.hdiphone6wallpapers.net%2Fiphone-6-backgrounds%2Fiphone-6-wallpapers-2%2Fiphone-6-wallpapers-hd-100pb94q-1080x1920.jpg");
+  background-color: rgb(0, 0, 0);
+  display: none;
+}
+
+#divApplab.appModern #mLabelGameOver {
+  font-size: 50px;
+  color: rgb(177, 124, 204);
+  width: 285px;
+  left: 15px;
+  top: 190px;
+  height: 49px;
+  text-align: center;
+}
+
+#divApplab.appModern #mButtonRetry {
+  height: 35px;
+  width: 100px;
+  font-size: 20px;
+  background-color: rgb(139, 33, 191);
+  left: 115px;
+  top: 250px;
+}
+
+#divApplab.appModern #mButtonMainMenu {
+  height: 35px;
+  width: 201px;
+  font-size: 18px;
+  background-color: rgb(86, 0, 130);
+  left: 60px;
+  top: 295px;
+}
+
+#divApplab.appModern #mScreenWin {
+  background-size: 320px 450px;
+  background-image: url("https://studio.code.org/media?u=http%3A%2F%2Fwww.hdiphone6wallpapers.net%2Fiphone-6-backgrounds%2Fiphone-6-wallpapers-2%2Fiphone-6-wallpapers-hd-100pb94q-1080x1920.jpg");
+  background-color: rgb(0, 0, 0);
+  display: none;
+}
+
+#divApplab.appModern #mLabelWin {
+  font-size: 50px;
+  color: rgb(214, 191, 12);
+  width: 269px;
+  height: 59px;
+  left: 25px;
+  top: 200px;
+  background-color: rgba(0, 0, 0, 0);
+  text-align: center;
+}
+
+#divApplab.appModern #mButtonWin {
+  width: 144px;
+  background-color: rgb(132, 122, 15);
+  left: 90px;
+  top: 265px;
+}
+
+#divApplab.appModern #mScreenInstructions {
+  background-color: rgb(0, 0, 0);
+  background-size: 320px 450px;
+  background-image: url("https://studio.code.org/media?u=http%3A%2F%2Fwww.hdiphone6wallpapers.net%2Fiphone-6-backgrounds%2Fiphone-6-wallpapers-2%2Fiphone-6-wallpapers-hd-100pb94q-1080x1920.jpg");
+  display: none;
+}
+
+#divApplab.appModern #mLabelInstructions1 {
+  font-size: 24px;
+  color: rgb(222, 12, 12);
+  width: 151px;
+  height: 29px;
+  left: 5px;
+  top: 235px;
+}
+
+#divApplab.appModern #mLabelInstructions2 {
+  font-size: 16px;
+  color: rgb(234, 98, 98);
+  width: 233px;
+  left: 15px;
+  top: 270px;
+  height: 46px;
+}
+
+#divApplab.appModern #mLabelInstructions3 {
+  font-size: 16px;
+  color: rgb(234, 98, 98);
+  width: 300px;
+  left: 15px;
+  top: 295px;
+  height: 37px;
+}
+
+#divApplab.appModern #mLabelInstructions4 {
+  font-size: 16px;
+  color: rgb(234, 98, 98);
+  width: 287px;
+  left: 15px;
+  top: 340px;
+  height: 21px;
+}
+
+#divApplab.appModern #mLabelInstructions5 {
+  font-size: 16px;
+  color: rgb(234, 98, 98);
+  width: 241px;
+  left: 15px;
+  top: 370px;
+  height: 21px;
+}
+
+#divApplab.appModern #mButtonBack {
+  height: 35px;
+  width: 130px;
+  background-color: rgb(144, 8, 9);
+  left: 90px;
+  top: 400px;
+}
+
+#divApplab.appModern #screenMinigame {
+  background-size: 320px 450px;
+  background-image: url("https://studio.code.org/media?u=http%3A%2F%2Fiphonewalls.net%2Fwp-content%2Fuploads%2F2016%2F03%2FVertical%2520Blue%2520Lines%2520Abstract%2520iPhone%25206%2B%2520HD%2520Wallpaper.jpg");
+  display: none;
+}
+
+#divApplab.appModern #labelMinigame1 {
+  font-size: 25px;
+  color: rgb(64, 234, 85);
+  width: 309px;
+  height: 30px;
+  left: 5px;
+  top: 130px;
+}
+
+#divApplab.appModern #labelMinigame2 {
+  font-size: 25px;
+  color: rgb(64, 234, 85);
+  width: 245px;
+  height: 30px;
+  left: 30px;
+  top: 170px;
+}
+
+#divApplab.appModern #labelMinigame3 {
+  font-size: 25px;
+  color: rgb(64, 234, 85);
+  width: 178px;
+  height: 30px;
+  left: 65px;
+  top: 210px;
+}
+
+#divApplab.appModern #labelMinigame4 {
+  font-size: 25px;
+  color: rgb(64, 234, 85);
+  width: 271px;
+  height: 55px;
+  left: 25px;
+  top: 250px;
+}
+
+#divApplab.appModern #buttonMinigameCancel {
+  height: 35px;
+  width: 90px;
+  font-size: 16px;
+  color: rgb(193, 15, 15);
+  background-color: rgb(64, 234, 85);
+  left: 110px;
+  top: 305px;
+}
+
+#divApplab.appModern #buttonMinigameContinue {
+  height: 35px;
+  width: 90px;
+  font-size: 16px;
+  color: rgb(6, 44, 179);
+  background-color: rgb(64, 234, 85);
+  left: 110px;
+  top: 345px;
+}
+
+#divApplab.appModern #screenSteam1 {
+  background-size: 320px 450px;
+  background-image: url("https://studio.code.org/media?u=https%3A%2F%2Faidam.cz%2Fimg%2Fst.jpg");
+  display: none;
+}
+
+#divApplab.appModern #labelSteam1-1 {
+  color: rgb(255, 255, 255);
+  width: 180px;
+  height: 61px;
+  left: 10px;
+  top: 10px;
+}
+
+#divApplab.appModern #buttonSteam1Continue1 {
+  height: 35px;
+  width: 90px;
+  color: rgb(103, 27, 4);
+  background-color: rgb(64, 234, 85);
+  left: 220px;
+  top: 405px;
+}
+
+#divApplab.appModern #buttonSteam1Continue2 {
+  height: 35px;
+  width: 90px;
+  color: rgb(103, 27, 4);
+  background-color: rgb(64, 234, 85);
+  left: 10px;
+  top: 405px;
+}
+
+#divApplab.appModern #labelSteam1-2 {
+  color: rgb(255, 255, 255);
+  width: 144px;
+  height: 63px;
+  left: 10px;
+  top: 75px;
+}
+
+#divApplab.appModern #objectSteam {
+  height: 75px;
+  width: 75px;
+  color: rgba(255, 255, 255, 0);
+  background-color: rgba(255, 255, 255, 0);
+  left: 145px;
+  top: 180px;
+  background-image: url("https://studio.code.org/media?u=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F562088808749862912%2F-UnNuIew.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #screenSteam2 {
+  display: none;
+  background-size: 320px 450px;
+  background-image: url("https://studio.code.org/media?u=https%3A%2F%2Fs-media-cache-ak0.pinimg.com%2F564x%2Ff2%2F0d%2Fb5%2Ff20db5da14712011d998673954cfbe10.jpg");
+}
+
+#divApplab.appModern #labelSteam2-1 {
+  color: rgb(255, 255, 255);
+  width: 187px;
+  left: 10px;
+  top: 10px;
+}
+
+#divApplab.appModern #buttonSteam2Continue1 {
+  height: 35px;
+  width: 90px;
+  color: rgb(103, 27, 4);
+  background-color: rgb(64, 234, 85);
+  left: 220px;
+  top: 405px;
+}
+
+#divApplab.appModern #screenSteam3 {
+  background-color: rgb(0, 0, 0);
+  display: none;
+}
+
+#divApplab.appModern #labelSteam3-1 {
+  color: rgb(255, 255, 255);
+  width: 88px;
+  left: 10px;
+  top: 10px;
+}
+
+#divApplab.appModern #buttonSteam3Continue1 {
+  height: 35px;
+  width: 90px;
+  color: rgb(103, 27, 4);
+  background-color: rgb(64, 234, 85);
+  top: 405px;
+  left: 220px;
+}
+
+#divApplab.appModern #buttonSteam3Continue2 {
+  height: 35px;
+  width: 90px;
+  color: rgb(103, 27, 4);
+  background-color: rgb(64, 234, 85);
+  top: 360px;
+  left: 220px;
+}
+
+#divApplab.appModern #labelSteam3-2 {
+  color: rgb(255, 255, 255);
+  width: 230px;
+  height: 25px;
+  left: 10px;
+  top: 40px;
+}
+
+#divApplab.appModern #labelSteam3-3 {
+  color: rgb(255, 255, 255);
+  width: 236px;
+  left: 10px;
+  top: 70px;
+}
+
+#divApplab.appModern #labelSteam3-4 {
+  color: rgb(255, 255, 255);
+  width: 268px;
+  height: 33px;
+  left: 10px;
+  top: 100px;
+}
+
+#divApplab.appModern #buttonSteam3Continue3 {
+  height: 35px;
+  width: 90px;
+  color: rgb(103, 27, 4);
+  background-color: rgb(64, 234, 85);
+  top: 405px;
+  left: 10px;
+}
+
+#divApplab.appModern #buttonSteam3Continue4 {
+  height: 35px;
+  width: 90px;
+  color: rgb(103, 27, 4);
+  background-color: rgb(64, 234, 85);
+  top: 360px;
+  left: 10px;
+}
+
+#divApplab.appModern #labelSteam3-5 {
+  color: rgb(255, 255, 255);
+  width: 229px;
+  left: 10px;
+  top: 145px;
+}
+
+#divApplab.appModern #buttonSteam3Continue5 {
+  height: 35px;
+  width: 90px;
+  color: rgb(103, 27, 4);
+  background-color: rgb(64, 234, 85);
+  top: 385px;
+  left: 115px;
+}
+
+#divApplab.appModern #screenGameHub {
+  background-size: 320px 450px;
+  background-image: url("https://studio.code.org/media?u=http%3A%2F%2Fi.imgur.com%2FrnxwAqM.jpg");
+  display: none;
+}
+
+#divApplab.appModern #buttonFNAF {
+  width: 180px;
+  background-color: rgb(49, 49, 49);
+  left: 25px;
+  top: 95px;
+}
+
+#divApplab.appModern #buttonUndertale {
+  width: 90px;
+  background-color: rgb(49, 49, 49);
+  left: 25px;
+  top: 235px;
+}
+
+#divApplab.appModern #buttonMinecraft {
+  width: 90px;
+  background-color: rgb(49, 49, 49);
+  left: 25px;
+  top: 130px;
+}
+
+#divApplab.appModern #buttonPortal {
+  width: 90px;
+  background-color: rgb(49, 49, 49);
+  left: 25px;
+  top: 165px;
+}
+
+#divApplab.appModern #buttonBOIR {
+  background-color: rgb(49, 49, 49);
+  left: 25px;
+  top: 25px;
+  width: 186px;
+}
+
+#divApplab.appModern #buttonCSGO {
+  width: 90px;
+  background-color: rgb(49, 49, 49);
+  left: 25px;
+  top: 60px;
+}
+
+#divApplab.appModern #buttonMoreGames {
+  width: 130px;
+  background-color: rgb(49, 49, 49);
+  left: 100px;
+  top: 370px;
+}
+
+#divApplab.appModern #buttonHexagon {
+  width: 115px;
+  background-color: rgb(49, 49, 49);
+  left: 25px;
+  top: 200px;
+}
+
+#divApplab.appModern #labelGameHubGo {
+  color: rgb(103, 27, 4);
+  width: 180px;
+  height: 33px;
+  left: 70px;
+  top: 375px;
+  background-color: rgb(64, 234, 85);
+  font-size: 28px;
+  text-align: center;
+}
+
+#divApplab.appModern #labelMoreGames {
+  color: rgb(103, 27, 4);
+  height: 43px;
+  left: 10px;
+  top: 320px;
+  background-color: rgb(64, 234, 85);
+  font-size: 19px;
+  text-align: center;
+  width: 300px;
+}
+
+#divApplab.appModern #imageHubGoomba1 {
+  height: 65px;
+  width: 65px;
+  left: 15px;
+  top: 150px;
+}
+
+#divApplab.appModern #imageHubGoomba2 {
+  height: 65px;
+  width: 65px;
+  left: 45px;
+  top: 150px;
+}
+
+#divApplab.appModern #imageHubGoomba3 {
+  height: 65px;
+  width: 65px;
+  left: 80px;
+  top: 150px;
+}
+
+#divApplab.appModern #labelGameHub {
+  color: rgb(103, 27, 4);
+  width: 300px;
+  height: 290px;
+  left: 10px;
+  top: 10px;
+  background-color: rgb(64, 234, 85);
+  font-size: 28px;
+  text-align: center;
+}
+
+#divApplab.appModern #screenGameFNAF {
+  background-size: 320px 450px;
+  background-image: url("https://studio.code.org/media?u=http%3A%2F%2Fimg06.deviantart.net%2Fac99%2Fi%2F2015%2F090%2Fa%2F3%2Ffnaf_office_by_hyrulehistorian-d8ntg61.jpg");
+  display: none;
+}
+
+#divApplab.appModern #buttonFNAFBack {
+  height: 35px;
+  width: 90px;
+  color: rgb(103, 27, 4);
+  background-color: rgb(64, 234, 85);
+  top: 410px;
+  left: 5px;
+}
+
+#divApplab.appModern #imageFNAFKey {
+  height: 30px;
+  width: 35px;
+  left: 195px;
+  top: 255px;
+}
+
+#divApplab.appModern #screenGameMinecraft {
+  background-size: 320px 450px;
+  background-image: url("https://studio.code.org/media?u=https%3A%2F%2Fscreenshots.en.sftcdn.net%2Fen%2Fscrn%2F69709000%2F69709806%2Fminecraft-windows-10-edition-03-700x373.png");
+  display: none;
+}
+
+#divApplab.appModern #buttonMinecraftBack {
+  height: 35px;
+  color: rgb(103, 27, 4);
+  background-color: rgb(64, 234, 85);
+  left: 5px;
+  top: 410px;
+  width: 90px;
+}
+
+#divApplab.appModern #imageMinecraftEnderman {
+  height: 125px;
+  width: 75px;
+  left: 45px;
+  top: 210px;
+}
+
+#divApplab.appModern #screenGameHexagon {
+  display: none;
+  background-size: 320px 450px;
+  background-image: url("https://studio.code.org/media?u=http%3A%2F%2Fl.j-factor.com%2Fgifs%2FSuperHexagon-HyperHexagoner.gif");
+}
+
+#divApplab.appModern #buttonHexagonBack {
+  height: 35px;
+  width: 90px;
+  color: rgb(103, 27, 4);
+  left: 5px;
+  top: 410px;
+  background-color: rgb(64, 234, 85);
+}
+
+#divApplab.appModern #imageHexagonCube {
+  height: 25px;
+  width: 25px;
+  left: 295px;
+  top: 15px;
+}
+
+#divApplab.appModern #screenGameCSGO {
+  background-size: 320px 450px;
+  background-image: url("https://studio.code.org/media?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FGo8sg9zXIg8%2Fhqdefault.jpg");
+  display: none;
+}
+
+#divApplab.appModern #imageCSGOMario {
+  height: 35px;
+  width: 30px;
+  left: 115px;
+  top: 120px;
+}
+
+#divApplab.appModern #imageCSGOCase {
+  height: 65px;
+  width: 90px;
+  left: 90px;
+  top: 105px;
+}
+
+#divApplab.appModern #buttonCSGOBack {
+  height: 35px;
+  width: 90px;
+  color: rgb(103, 27, 4);
+  background-color: rgb(64, 234, 85);
+  left: 5px;
+  top: 410px;
+}
+
+#divApplab.appModern #screenGameUndertale {
+  display: none;
+  background-size: 320px 450px;
+  background-image: url("https://studio.code.org/media?u=http%3A%2F%2F1.bp.blogspot.com%2F-Ij1VX6pi33k%2FVgyNVgnB0QI%2FAAAAAAAAQ3s%2FLgclUth47MA%2Fs1600%2FScreen%252BShot%252B2015-09-30%252Bat%252B8.18.15%252BPM.png");
+}
+
+#divApplab.appModern #buttonUndertaleBack {
+  height: 35px;
+  width: 45px;
+  color: rgb(103, 27, 4);
+  background-color: rgb(64, 234, 85);
+  left: 40px;
+  top: 300px;
+}
+
+#divApplab.appModern #imageUndertaleFlower {
+  height: 35px;
+  width: 35px;
+  left: 285px;
+  top: 190px;
+}
+
+#divApplab.appModern #imageUndertaleDeath1 {
+  height: 355px;
+  width: 35px;
+}
+
+#divApplab.appModern #imageUndertaleDeath2 {
+  height: 50px;
+  width: 285px;
+  left: 20px;
+}
+
+#divApplab.appModern #imageUndertaleDeath3 {
+  height: 129.893px;
+  width: 195px;
+  left: 125px;
+  top: 20px;
+}
+
+#divApplab.appModern #imageUndertaleDeath4 {
+  height: 155px;
+  width: 25px;
+  left: 125px;
+  top: 150px;
+}
+
+#divApplab.appModern #imageUndertaleDeath5 {
+  height: 120px;
+  width: 25px;
+  left: 185px;
+  top: 220px;
+}
+
+#divApplab.appModern #imageUndertaleDeath6 {
+  height: 155px;
+  width: 45px;
+  left: 245px;
+  top: 145px;
+}
+
+#divApplab.appModern #imageUndertaleDeath7 {
+  height: 40px;
+  width: 20px;
+  left: 295px;
+  top: 150px;
+}
+
+#divApplab.appModern #imageUndertaleDeath8 {
+  height: 110px;
+  width: 319px;
+  left: 1.66533e-16px;
+  top: 340px;
+}
+
+#divApplab.appModern #screenGameBOIR {
+  background-size: 320px 450px;
+  background-image: url("https://studio.code.org/media?u=http%3A%2F%2Fi.gyazo.com%2F4479270fc35a4d7de85a18563db8811b.png");
+  display: none;
+}
+
+#divApplab.appModern #buttonBOIRBack {
+  width: 90px;
+  color: rgb(103, 27, 4);
+  background-color: rgb(64, 234, 85);
+  left: 5px;
+  top: 410px;
+  height: 35px;
+}
+
+#divApplab.appModern #buttonBOIRDoor {
+  width: 25px;
+  color: rgba(255, 255, 255, 0);
+  background-color: rgba(190, 230, 222, 0);
+  left: 150px;
+  top: 70px;
+}
+
+#divApplab.appModern #imageBOIRDoor {
+  height: 55px;
+  width: 55px;
+  left: 130px;
+  top: 50px;
+}
+
+#divApplab.appModern #imageBOIRKey {
+  height: 40px;
+  width: 30px;
+  left: 145px;
+  top: 250px;
+}
+
+#divApplab.appModern #imageBOIRChestRed {
+  height: 65px;
+  width: 50px;
+  left: 135px;
+  top: 240px;
+}
+
+#divApplab.appModern #imageBOIRChestGold {
+  height: 65px;
+  width: 85px;
+  left: 120px;
+  top: 235px;
+}
+
+#divApplab.appModern #imageBOIRChestGray {
+  height: 80px;
+  width: 95px;
+  left: 115px;
+  top: 230px;
+}
+
+#divApplab.appModern #screenGamePortal {
+  background-size: 320px 450px;
+  background-image: url("https://studio.code.org/media?u=https%3A%2F%2Fi0.wp.com%2Fwww.economyofeffort.com%2Fwp-content%2Fuploads%2F2007%2F10%2Fportalgame.jpg");
+  display: none;
+}
+
+#divApplab.appModern #buttonPortalBack {
+  height: 35px;
+  width: 90px;
+  color: rgb(103, 27, 4);
+  background-color: rgb(64, 234, 85);
+  left: 5px;
+  top: 410px;
+}
+
+#divApplab.appModern #buttonPortalChest1 {
+  height: 25px;
+  width: 35px;
+  font-size: 11px;
+  background-color: rgb(146, 135, 2);
+  left: 60px;
+  top: 165px;
+}
+
+#divApplab.appModern #imagePortalGrass {
+  height: 70px;
+  width: 70px;
+  left: 45px;
+  top: 140px;
+}
+
+#divApplab.appModern #buttonPortalChest2 {
+  height: 25px;
+  width: 30px;
+  font-size: 11px;
+  background-color: rgb(224, 7, 7);
+  left: 205px;
+  top: 65px;
+}
+
+#divApplab.appModern #imagePortalHeart {
+  height: 60px;
+  width: 60px;
+  left: 190px;
+  top: 50px;
+}
+
+#divApplab.appModern #imagePortalCube {
+  height: 25px;
+  width: 25px;
+  left: 180px;
+  top: 230px;
+}
+
+#divApplab.appModern #buttonPortalChest3 {
+  height: 25px;
+  width: 30px;
+  font-size: 11px;
+  background-color: rgb(123, 123, 123);
+  left: 165px;
+  top: 260px;
+}
+
+#divApplab.appModern #screenEscape {
+  background-color: rgb(4, 0, 0);
+  display: none;
+}
+
+#divApplab.appModern #labelEscape1 {
+  font-size: 33px;
+  color: rgb(255, 255, 255);
+  width: 310px;
+  height: 170px;
+  left: 5px;
+  top: 10px;
+  text-align: center;
+}
+
+#divApplab.appModern #labelEscape2 {
+  font-size: 33px;
+  color: rgb(255, 255, 255);
+  width: 320px;
+  height: 170px;
+  top: 215px;
+  text-align: center;
+}
+
+#divApplab.appModern #buttonEscape {
+  height: 15px;
+  width: 330px;
+  background-color: rgb(255, 255, 255);
+  top: 190px;
+}

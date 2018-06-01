@@ -1,0 +1,889 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("applab/fontawesome-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+#divApplab.appModern button,
+#divApplab.appModern button:hover {
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  height: 30px;
+  width: 80px;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(26, 188, 156);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#divApplab.appModern label,
+#divApplab.appModern label:hover {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 2px;
+  padding-right: 2px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+  line-height: 1;
+  font-size: 14px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  word-wrap: break-word;
+  color: rgb(51, 51, 51);
+  max-width: 320px;
+  width: 32px;
+  height: 19px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#divApplab.appModern input[type=text],
+#divApplab.appModern input[type=text]:hover {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  width: 200px;
+  height: 30px;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#divApplab.appModern input[type=checkbox],
+#divApplab.appModern input[type=checkbox]:hover {
+  width: 12px;
+  height: 12px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#divApplab.appModern select,
+#divApplab.appModern select:hover {
+  width: 200px;
+  height: 30px;
+  font-size: 14px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(26, 188, 156);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#divApplab.appModern input[type=radio],
+#divApplab.appModern input[type=radio]:hover {
+  width: 12px;
+  height: 12px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#divApplab.appModern div.textArea,
+#divApplab.appModern div.textArea:hover {
+  width: 200px;
+  height: 100px;
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+#divApplab.appModern img,
+#divApplab.appModern img:hover {
+  height: 100px;
+  width: 100px;
+  object-fit: contain;
+  font-family: "object-fit: contain;";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+#divApplab.appModern canvas,
+#divApplab.appModern canvas:hover {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+#divApplab.appModern div.screen,
+#divApplab.appModern div.screen:hover {
+  display: block;
+  height: 450px;
+  width: 320px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  z-index: 0;
+}
+
+#divApplab.appModern div.chart,
+#divApplab.appModern div.chart:hover {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+#divApplab.appModern input[type=range],
+#divApplab.appModern input[type=range]:hover {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  width: 150px;
+  height: 24px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#divApplab.appModern #screenStart {
+  background-color: rgb(0, 0, 0);
+  background-size: 320px 450px;
+  background-image: url("https://studio.code.org/media?u=http%3A%2F%2Fwww.hdiphone6wallpapers.net%2Fiphone-6-backgrounds%2Fiphone-6-wallpapers-2%2Fiphone-6-wallpapers-hd-100pb94q-1080x1920.jpg");
+}
+
+#divApplab.appModern #labelTitle {
+  font-size: 55px;
+  color: rgb(222, 12, 12);
+  width: 315px;
+  height: 170px;
+  left: 5px;
+  top: 280px;
+}
+
+#divApplab.appModern #buttonPlay {
+  height: 60px;
+  width: 90px;
+  font-size: 20px;
+  background-color: rgb(103, 5, 6);
+  left: 225px;
+  top: 385px;
+}
+
+#divApplab.appModern #labelSequel {
+  font-size: 15px;
+  color: rgb(245, 55, 55);
+  width: 160px;
+  height: 100px;
+  left: 5px;
+  top: 190px;
+}
+
+#divApplab.appModern #labelComingSoon {
+  font-size: 15px;
+  color: rgb(230, 70, 70);
+  width: 282px;
+  height: 20px;
+  left: 30px;
+  top: 10px;
+}
+
+#divApplab.appModern #screenMaze {
+  background-size: 320px 450px;
+  background-image: url("https://studio.code.org/v3/assets/mVEBpfRWsE1NR6fGSWHphTkCCHvCA67S_quTnSE6cKw/gereeeen.png");
+  display: none;
+}
+
+#divApplab.appModern #canvasMaze {
+  width: 320px;
+  height: 390px;
+}
+
+#divApplab.appModern #borderBlocking1 {
+  height: 64px;
+  width: 330px;
+  top: 388px;
+}
+
+#divApplab.appModern #wall1 {
+  height: 123px;
+  width: 12px;
+  left: 115px;
+  top: 155px;
+}
+
+#divApplab.appModern #wall2 {
+  height: 85px;
+  width: 12px;
+  left: 194px;
+  top: 155px;
+}
+
+#divApplab.appModern #wall3 {
+  height: 12px;
+  width: 205px;
+  left: 77px;
+  top: 153px;
+}
+
+#divApplab.appModern #wall4 {
+  height: 12px;
+  width: 89px;
+  left: 194px;
+  top: 230px;
+}
+
+#divApplab.appModern #wall5 {
+  height: 12px;
+  width: 87px;
+  left: 235px;
+  top: 192px;
+}
+
+#divApplab.appModern #wall6 {
+  height: 125px;
+  width: 12px;
+  left: 233px;
+  top: 38px;
+}
+
+#divApplab.appModern #wall7 {
+  height: 12px;
+  width: 58px;
+  left: 275px;
+  top: 114px;
+}
+
+#divApplab.appModern #wall8 {
+  height: 12px;
+  width: 63px;
+  left: 221px;
+  top: 75px;
+}
+
+#divApplab.appModern #wall9 {
+  height: 47px;
+  width: 12px;
+  left: 272px;
+}
+
+#divApplab.appModern #wall10 {
+  height: 125px;
+  width: 12px;
+  left: 193px;
+}
+
+#divApplab.appModern #wall11 {
+  height: 12px;
+  width: 68px;
+  left: 147px;
+  top: 115px;
+}
+
+#divApplab.appModern #wall12 {
+  height: 53px;
+  width: 12px;
+  left: 150px;
+  top: 111px;
+}
+
+#divApplab.appModern #wall13 {
+  height: 12px;
+  width: 58px;
+  left: 115px;
+  top: 230px;
+}
+
+#divApplab.appModern #wall14 {
+  height: 85px;
+  width: 12px;
+  left: 155px;
+  top: 230px;
+}
+
+#divApplab.appModern #wall15 {
+  height: 12px;
+  width: 50px;
+  left: 117px;
+  top: 308px;
+}
+
+#divApplab.appModern #wall16 {
+  height: 12px;
+  width: 56px;
+  left: 71px;
+  top: 270px;
+}
+
+#divApplab.appModern #wall17 {
+  height: 85px;
+  width: 12px;
+  left: 75px;
+  top: 270px;
+}
+
+#divApplab.appModern #wall18 {
+  height: 12px;
+  width: 131px;
+  left: 75px;
+  top: 347px;
+}
+
+#divApplab.appModern #wall19 {
+  height: 89px;
+  width: 12px;
+  left: 194px;
+  top: 270px;
+}
+
+#divApplab.appModern #wall20 {
+  height: 12px;
+  width: 93px;
+  left: 193px;
+  top: 270px;
+}
+
+#divApplab.appModern #wall21 {
+  height: 89px;
+  width: 12px;
+  left: 275px;
+  top: 270px;
+}
+
+#divApplab.appModern #wall22 {
+  width: 12px;
+  left: 234px;
+  top: 310px;
+}
+
+#divApplab.appModern #wall23 {
+  height: 128px;
+  width: 12px;
+  left: 36px;
+  top: 233px;
+}
+
+#divApplab.appModern #wall24 {
+  height: 12px;
+  left: -14px;
+  top: 230px;
+}
+
+#divApplab.appModern #border5 {
+  height: 64px;
+  width: 330px;
+  top: 390px;
+}
+
+#divApplab.appModern #border6 {
+  height: 20px;
+  width: 203px;
+  left: 159px;
+  top: 388px;
+}
+
+#divApplab.appModern #border7 {
+  height: 20px;
+  width: 203px;
+  left: -80px;
+  top: 388px;
+}
+
+#divApplab.appModern #buttonUp {
+  background-color: rgb(51, 62, 255);
+  left: 150px;
+  top: 395px;
+  height: 25px;
+  width: 25px;
+}
+
+#divApplab.appModern #buttonDown {
+  background-color: rgb(51, 62, 255);
+  left: 150px;
+  top: 422px;
+  height: 25px;
+  width: 25px;
+}
+
+#divApplab.appModern #buttonRight {
+  font-size: 22px;
+  background-color: rgb(51, 62, 255);
+  left: 177px;
+  top: 422px;
+  height: 25px;
+  width: 25px;
+}
+
+#divApplab.appModern #buttonLeft {
+  font-size: 22px;
+  background-color: rgb(51, 62, 255);
+  left: 123px;
+  top: 422px;
+  height: 25px;
+  width: 25px;
+}
+
+#divApplab.appModern #border1 {
+  width: 12px;
+  left: 317px;
+  top: -15px;
+  height: 450px;
+}
+
+#divApplab.appModern #border2 {
+  width: 12px;
+  height: 450px;
+  left: -9px;
+  top: -15px;
+}
+
+#divApplab.appModern #border3 {
+  height: 10px;
+  width: 128px;
+  left: -5px;
+  top: -7px;
+}
+
+#divApplab.appModern #border4 {
+  height: 9px;
+  width: 167px;
+  left: 195px;
+  top: -6px;
+}
+
+#divApplab.appModern #wall25 {
+  height: 12px;
+  width: 50px;
+  left: 37px;
+  top: 192px;
+}
+
+#divApplab.appModern #wall26 {
+  height: 130px;
+  width: 12px;
+  left: 37px;
+  top: 74px;
+}
+
+#divApplab.appModern #wall27 {
+  height: 12px;
+  width: 89px;
+  top: 114px;
+  left: 38px;
+}
+
+#divApplab.appModern #wall28 {
+  height: 50px;
+  width: 12px;
+  left: 115px;
+  top: 75px;
+}
+
+#divApplab.appModern #wall29 {
+  height: 12px;
+  width: 91px;
+  top: 74px;
+  left: 75px;
+}
+
+#divApplab.appModern #wall30 {
+  height: 49px;
+  width: 12px;
+  left: 154px;
+  top: 37px;
+}
+
+#divApplab.appModern #wall31 {
+  height: 49px;
+  width: 12px;
+  left: 75px;
+  top: 37px;
+}
+
+#divApplab.appModern #wall32 {
+  height: 12px;
+  width: 49px;
+  left: 38px;
+  top: 35px;
+}
+
+#divApplab.appModern #wall33 {
+  height: 12px;
+  width: 52px;
+  left: 114px;
+  top: 35px;
+}
+
+#divApplab.appModern #wall34 {
+  height: 58px;
+  width: 12px;
+  left: 114px;
+  top: -17px;
+}
+
+#divApplab.appModern #wall35 {
+  height: 12px;
+  width: 150px;
+  top: 344px;
+  left: -25px;
+}
+
+#divApplab.appModern #wall36 {
+  height: 12px;
+  width: 207px;
+  top: 304px;
+  left: 37px;
+}
+
+#divApplab.appModern #wall37 {
+  height: 50px;
+  width: 12px;
+  top: 346px;
+  left: 193px;
+}
+
+#divApplab.appModern #wall38 {
+  height: 47px;
+  width: 12px;
+  top: 307px;
+  left: 154px;
+}
+
+#divApplab.appModern #wall39 {
+  height: 89px;
+  width: 12px;
+  top: 266px;
+  left: 233px;
+}
+
+#divApplab.appModern #wall40 {
+  height: 12px;
+  width: 50px;
+  top: 343px;
+  left: 234px;
+}
+
+#divApplab.appModern #wall41 {
+  height: 12px;
+  width: 60px;
+  top: 305px;
+  left: 275px;
+}
+
+#divApplab.appModern #wall42 {
+  height: 12px;
+  width: 51px;
+  top: 265px;
+  left: 233px;
+}
+
+#divApplab.appModern #wall43 {
+  height: 47px;
+  width: 12px;
+  top: 230px;
+  left: 272px;
+}
+
+#divApplab.appModern #wall44 {
+  height: 126px;
+  top: 190px;
+  left: 35px;
+  width: 12px;
+}
+
+#divApplab.appModern #wall45 {
+  height: 12px;
+  width: 48px;
+  top: 190px;
+  left: 37px;
+}
+
+#divApplab.appModern #wall46 {
+  height: 165px;
+  width: 12px;
+  top: 150px;
+  left: 115px;
+}
+
+#divApplab.appModern #wall47 {
+  height: 12px;
+  width: 88px;
+  top: 228px;
+  left: 77px;
+}
+
+#divApplab.appModern #wall48 {
+  height: 47px;
+  width: 12px;
+  top: 230px;
+  left: 77px;
+}
+
+#divApplab.appModern #wall49 {
+  height: 12px;
+  width: 90px;
+  top: 150px;
+  left: 35px;
+}
+
+#divApplab.appModern #wall50 {
+  height: 45px;
+  width: 12px;
+  top: 115px;
+  left: 35px;
+}
+
+#divApplab.appModern #wall51 {
+  height: 12px;
+  width: 69px;
+  top: 115px;
+  left: -22px;
+}
+
+#divApplab.appModern #wall52 {
+  height: 12px;
+  width: 51px;
+  top: 228px;
+  left: 195px;
+}
+
+#divApplab.appModern #wall53 {
+  height: 12px;
+  width: 51px;
+  top: 265px;
+  left: 155px;
+}
+
+#divApplab.appModern #wall54 {
+  height: 126px;
+  top: 150px;
+  left: 195px;
+  width: 12px;
+}
+
+#divApplab.appModern #wall55 {
+  height: 49px;
+  width: 12px;
+  top: 190px;
+  left: 234px;
+}
+
+#divApplab.appModern #wall56 {
+  height: 12px;
+  width: 51px;
+  top: 190px;
+  left: 234px;
+}
+
+#divApplab.appModern #wall57 {
+  height: 12px;
+  width: 90px;
+  top: 150px;
+  left: 155px;
+}
+
+#divApplab.appModern #wall58 {
+  height: 89px;
+  width: 12px;
+  top: 112px;
+  left: 154px;
+}
+
+#divApplab.appModern #wall59 {
+  height: 12px;
+  width: 90px;
+  top: 112px;
+  left: 76px;
+}
+
+#divApplab.appModern #wall60 {
+  height: 190px;
+  width: 12px;
+  top: -29px;
+  left: 233px;
+}
+
+#divApplab.appModern #wall61 {
+  height: 12px;
+  width: 51px;
+  top: 74px;
+  left: 234px;
+}
+
+#divApplab.appModern #wall62 {
+  height: 12px;
+  width: 60px;
+  top: 150px;
+  left: 275px;
+}
+
+#divApplab.appModern #wall63 {
+  height: 47px;
+  width: 12px;
+  top: 115px;
+  left: 275px;
+}
+
+#divApplab.appModern #wall64 {
+  height: 12px;
+  width: 60px;
+  top: 35px;
+  left: 275px;
+}
+
+#divApplab.appModern #wall65 {
+  height: 12px;
+  width: 170px;
+  top: 74px;
+  left: 35px;
+}
+
+#divApplab.appModern #wall66 {
+  height: 50px;
+  width: 12px;
+  top: 35px;
+  left: 35px;
+}
+
+#divApplab.appModern #wall67 {
+  height: 62px;
+  width: 12px;
+  top: -15px;
+  left: 75px;
+}
+
+#divApplab.appModern #wall68 {
+  height: 12px;
+  width: 50px;
+  top: 35px;
+  left: 76px;
+}
+
+#divApplab.appModern #wall69 {
+  height: 89px;
+  width: 12px;
+  top: 35px;
+  left: 195px;
+}
+
+#divApplab.appModern #wall70 {
+  height: 12px;
+  width: 50px;
+  top: 35px;
+  left: 155px;
+}
+
+#divApplab.appModern #wall71 {
+  height: 89px;
+  width: 12px;
+  top: -42px;
+  left: 154px;
+}
+
+#divApplab.appModern #borderBlocking2 {
+  height: 64px;
+  width: 164px;
+  top: -61px;
+}
+
+#divApplab.appModern #borderBlocking3 {
+  height: 9px;
+  width: 167px;
+  left: 160px;
+  top: -6px;
+}
+
+#divApplab.appModern #screenInstructions {
+  background-size: 320px 450px;
+  background-image: url("https://studio.code.org/media?u=http%3A%2F%2Fwww.hdiphone6wallpapers.net%2Fiphone-6-backgrounds%2Fiphone-6-wallpapers-2%2Fiphone-6-wallpapers-hd-100pb94q-1080x1920.jpg");
+  display: none;
+}
+
+#divApplab.appModern #buttonGo {
+  height: 40px;
+  width: 105px;
+  background-color: rgb(42, 102, 220);
+  left: 105px;
+  top: 395px;
+}
+
+#divApplab.appModern #labelInstructions1 {
+  color: rgb(255, 255, 255);
+  width: 310px;
+  height: 61px;
+  left: 10px;
+  top: 260px;
+}
+
+#divApplab.appModern #labelInstructions2 {
+  color: rgb(255, 255, 255);
+  width: 310px;
+  height: 61px;
+  left: 10px;
+  top: 325px;
+}
+
+#divApplab.appModern #screenEnd {
+  display: none;
+  background-size: 320px 450px;
+  background-image: url("https://studio.code.org/media?u=http%3A%2F%2Fwww.hdiphone6wallpapers.net%2Fiphone-6-backgrounds%2Fiphone-6-wallpapers-2%2Fiphone-6-wallpapers-hd-100pb94q-1080x1920.jpg");
+}
+
+#divApplab.appModern #buttonEnd {
+  height: 50px;
+  width: 100px;
+  background-color: rgb(148, 148, 23);
+  left: 110px;
+  top: 390px;
+}
+
+#divApplab.appModern #labelEnd {
+  color: rgb(148, 148, 23);
+  width: 285px;
+  height: 205px;
+  left: 20px;
+  top: 160px;
+  text-align: center;
+  font-size: 40px;
+}
